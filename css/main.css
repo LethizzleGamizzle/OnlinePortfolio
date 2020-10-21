@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+body{
+    font-family: helvetica, arial, sans-serif;
+	font-size:1em;
+}
+h1, h2{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+	text-shadow: 4px 4px 10px #cccccc;	
+}
+img{
+	opacity: 0.75;	
+}
+#container{
+	width:100%;	
+	margin:auto;
+	max-width: 1500px;
+	min-width: 900px;
+}
+html{
+	background: #ffffff;
+	height: 100%;
+	position: relative;
+	overflow: scroll;
+  }
+header{
+	background-color: #018EB8 ;	
+	border-radius:8px;
+	display:flex;
+	justify-content: space-between;
+	box-shadow: 15px 15px 10px 0px #cccccc;
+}
+div#iframeCV{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 800px;
+	margin: 0px;
+}
+/*div#iframeLSEPI{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 45%;
+	height: 800px;
+	margin: 0px;
+}*/
+nav{
+	padding-right: 5px;
+}
+nav li a{
+	text-decoration:none;	
+	color:#ffffff;	
+}
+nav li a:hover{
+	color:#8EB801;	
+}
+nav ul{
+	padding-left:0;
+	list-style:none;
+	margin-top: 40px;	
+}
+nav ul li{	
+	display:inline;
+	border: 2px solid #ffffff;
+	padding: 20px;
+	margin: 10px;
+}
+#logo{
+	width:660px;
+}
+#logo h1{
+	padding:10px;	
+}
+#logo a{
+	text-decoration:none;
+	color:#ffffff;	
+}
+#content{
+	display: flex;
+}
+#contactButton{
+	cursor: pointer;
+}
+section{
+	padding:0 10px 10px 0;
+}
+section#CV{
+	width: 80%;
+	height: 800px;
+	justify-content: space-between;
+}
+.resize-img{
+	width:50%;
+	height:50%;
+}
+.sidebar{
+	flex:0 1 200px;
+	min-width: 200px;
+	padding:20px 40px;	
+	border:3px solid #018EB8 ;
+	border-radius:8px;
+	margin: 70px 10px 0 0;
+}
+.floatRight{
+	float:right;
+	padding:5px;
+	border:1px solid #cccccc;
+}
+label{
+	display:inline-block;
+	width:120px;
+	vertical-align:top;
+}
+input[type=text], input[type=email], input[type=tel]{
+	width:200px;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;		
+}
+textarea{
+	width:400px;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;		
+}
+footer{
+	border-top:1px solid #cccccc;
+	margin:20px 10px 10px 0;
+	clear:both;	
+	font-size:0.8em;
+	text-align:center;
+	font-style:italic;
+}
